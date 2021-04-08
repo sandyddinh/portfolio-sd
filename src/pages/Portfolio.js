@@ -1,10 +1,15 @@
 import React, { Component } from "react";
+import Header from '../components/Header';
+
 export default class Porfolio extends Component {
   render() {
     return (
-      <section id="portfolio-section">
-        Add 3 portfolio projects
-      </section>
+      <>
+       <Header/>
+        <div id="portfolio">
+          Add 3 portfolio projects
+        </div>
+      </>
     );
   }
 }

@@ -1,10 +1,15 @@
 import React, { Component } from 'react';
+import Header from '../components/Header';
+
 export default class Resume extends Component {
   render() {
     return (
-      <section id="resume-section">
-        This is the resume page.
-      </section>
+      <>
+        <Header/>
+          <div id="resume">
+            This is the resume page.
+          </div>
+      </>
     );
   }
 }

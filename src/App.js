@@ -9,15 +9,14 @@ class App extends Component {
   render() {
     return (
       <div className="AppPage">
-        <Header />
-        {/* <About resumeData={resumeData} />
-        <Resume resumeData={resumeData} />
-        <Portfolio resumeData={resumeData} />
-        <Contact resumeData={resumeData} />
-        <Footer resumeData={resumeData} /> */}
+        <div className="landing-page"></div>
         <div className="intro-text">
             <h1>Hey, I'm Sandy.</h1>
         </div>
+        <About />
+        <Resume />
+        <Portfolio />
+        <Contact />
       </div>
     );
   }
