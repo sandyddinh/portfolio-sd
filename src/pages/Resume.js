@@ -1,15 +1,12 @@
 import React, { Component } from 'react';
-import Header from '../components/Header';
 
-export default class Resume extends Component {
-  render() {
+export default function Resume () {
     return (
-      <>
-        {/* <Header/> */}
+      <div className="ResumePage">
           <div id="resume">
             This is the resume page.
           </div>
-      </>
+      </div>
     );
-  }
+  
 }

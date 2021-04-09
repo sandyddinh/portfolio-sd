@@ -33,7 +33,6 @@ export default function Porfolio() {
   
     return (
       <div className="PortfolioPage">
-       {/* <Header/> */}
         <div id="portfolio">
           <div className="cantaloupe-project">
             <div className="cantaloupe-header">

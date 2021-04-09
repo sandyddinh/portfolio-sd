@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import Header from '../components/Header';
 
-export default class About extends Component {
-  render() {
+export default function About () {
     return (
       <>
-        <Header/>
+      <Header/>
+      <div className="AboutPage">
         <div id="about">
-          <div className="about-body">
+          {/* <div className="about-body"> */}
             <h1>I design and build websites.</h1>
             <br/>
             <h2>I'm a multi-faceted human with over 6+ years of experience in management consulting, financial services, and digital engineering.</h2>
@@ -26,7 +26,7 @@ export default class About extends Component {
 
           </div>
         </div>
+        {/* </div> */}
         </>
     );
-  }
 }
