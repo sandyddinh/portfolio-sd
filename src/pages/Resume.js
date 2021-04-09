@@ -5,7 +5,7 @@ export default class Resume extends Component {
   render() {
     return (
       <>
-        <Header/>
+        {/* <Header/> */}
           <div id="resume">
             This is the resume page.
           </div>

@@ -5,7 +5,7 @@ export default class Contact extends Component {
   render() {
     return (
       <>
-        <Header />
+        {/* <Header /> */}
           <div id="contact">
             LinkedIn: sandydinh
             Email: sandyddinh@gmail.com
