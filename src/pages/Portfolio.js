@@ -36,11 +36,12 @@ export default function Porfolio() {
         <div id="portfolio">
           <div className="cantaloupe-project">
             <div className="cantaloupe-header">
-              <h2>Cantaloupe</h2>
+              <h2>Cantaloupe<span className="right"><button onClick={cantaloupeToggle}>{openCantaloupe ? "-" : "+"}</button></span></h2>
               <h3>An e-commerce store.</h3>
-              <button onClick={cantaloupeToggle}>{openCantaloupe ? "-" : "+"}</button>
             </div>
             <div className={openCantaloupe ? "cantaloupe-body" : "hide-details"}> 
+              <div className="demo-button"><a href="/">DEMO</a></div>
+              <div className="readme-button"><a href="/">README</a></div>
               <div className="project-preview">
                 <div className="project-image"><img src={cantaloupeClothing}/></div>
                 <div className="project-image"><img src={cantaloupeItem}/></div>
@@ -59,11 +60,12 @@ export default function Porfolio() {
           </div>
           <div className="journal-project">
             <div className="journal-header">
-              <h2>My Daily</h2>
+              <h2>My Daily<span className="right"><button onClick={journalToggle}>{openJournal ? "-" : "+"}</button></span></h2>
               <h3>A daily journal.</h3>
-              <button onClick={journalToggle}>{openJournal ? "-" : "+"}</button>
             </div>
             <div className={openJournal ? "journal-body" : "hide-details"}>
+              <div className="demo-button"><a href="/">DEMO</a></div>
+              <div className="readme-button"><a href="/">README</a></div>
               <div className="project-preview">
                 <div className="project-image"><img src={journalMain}/></div>
                 <div className="project-image"><img src={journalEntry}/></div>
@@ -82,11 +84,12 @@ export default function Porfolio() {
           </div>
           <div className="rewind-project">
             <div className="rewind-header">
-              <h2>2020 In Rewind</h2>
+              <h2>2020 In Rewind<span className="right"><button onClick={rewindToggle}>{openRewind ? "-" : "+"}</button></span></h2>
               <h3>A trivia game inspired by Family Feud.</h3>
-              <button onClick={rewindToggle}>{openRewind ? "-" : "+"}</button>
             </div>
             <div className={openRewind ? "rewind-body" : "hide-details"}>
+              <div className="demo-button"><a href="/">DEMO</a></div>
+              <div className="readme-button"><a href="/">README</a></div>
               <div className="project-preview">
                 <div className="project-image"><img src={rewindIntro}/></div>
                 <div className="project-image"><img src={rewindBoard}/></div>

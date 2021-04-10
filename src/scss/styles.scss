@@ -100,14 +100,64 @@ body {
         .project-image {
             display: inline-block;
             width: 30%;
-            height: auto;
-            padding: 10px;
+            // height: auto;
+            margin: 10px;
+            
         }
         img {
             max-width: 100%;
+            border: 2px solid white;
         }
         .cantaloupe-body {
             display: inline-block;
+        }
+        button {
+            display: inline-block;
+            border: none;
+            color: white;
+            font-size: 60px;
+            background: none;
+            line-height: 60px;
+        }
+        .right {
+            float: right;
+        }
+        .cantaloupe-project, .journal-project, .rewind-project {
+            margin: 20px 0;
+        }
+        li {
+            font-size: 16px;
+        }
+        h2{
+            font-weight: 600;
+        }
+        h3{
+            font-style: italic;
+        }
+        .demo-button, .readme-button {
+            display: inline-block;
+            margin: 5px;
+            height: 40px;
+            width: 140px;
+            text-align: center;
+            // border: 1px solid green;
+            color: $dark-slate-blue;
+            background-color: $tan;
+            line-height: 40px;
+            border-radius: 10px;
+            a {
+                text-decoration: none;
+                // color: $dark-slate-blue;
+                font-size: 18px;
+            }
+            
+            a:visited {
+                text-decoration: none;
+                color: white
+            }
+            a:hover {
+                color: black;
+            }
         }
     }
 
