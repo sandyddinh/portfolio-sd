@@ -127,6 +127,18 @@ body {
             align-items: center;
             margin: 5px;
         }
+        a {
+            text-decoration: none;
+            color: white;
+        }
+        
+        a:visited {
+            text-decoration: none;
+            color: white
+        }
+        a:hover {
+            color: black;
+        }
     }
 
 }
