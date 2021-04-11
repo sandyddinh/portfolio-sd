@@ -5,10 +5,12 @@ export default function Resume () {
       <div className="ResumePage">
           <div id="resume">
             <h2>Engineering</h2>
+            <hr/>
               - Full Stack Web Developer
               - Test Automation
             
             <h2>Technology</h2>
+            <hr/>
               - JavaScript
               - React
               - HTML
@@ -19,6 +21,7 @@ export default function Resume () {
               - RESTful APIs
             
             <h2>Business</h2>
+            <hr/>
               - Business Process Management / Optimization
               - Business Analysis
               - Requiremnts Gathering
