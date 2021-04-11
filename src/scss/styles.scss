@@ -97,6 +97,10 @@ body {
             display: none;
             background-color: red;
         }
+        .project-preview {
+            display: flex;
+            justify-content: space-between;
+        }
         .project-image {
             display: inline-block;
             width: 30%;
@@ -108,19 +112,22 @@ body {
             max-width: 100%;
             border: 2px solid white;
         }
-        .cantaloupe-body {
-            display: inline-block;
+        .cantaloupe-header, .journal-header, .rewind-header {
+            padding-top: 20px;
+            &:hover {
+                cursor: pointer;
+                transform: translate(50px);
+                transition-duration: 0.5s;
+            }
         }
-        button {
+        .cantaloupe-body, .journal-body, .rewind-body {
             display: inline-block;
-            border: none;
-            color: white;
-            font-size: 60px;
-            background: none;
-            line-height: 60px;
+            padding-bottom: 200px;
         }
-        .right {
-            float: right;
+        .project-links {
+            display: flex;
+            justify-content: flex-end;
+            padding: 10px 0;
         }
         .cantaloupe-project, .journal-project, .rewind-project {
             margin: 20px 0;
@@ -135,22 +142,28 @@ body {
             font-style: italic;
         }
         .demo-button, .readme-button {
+            font-family: inherit;
             display: inline-block;
             margin: 5px;
             height: 40px;
             width: 140px;
             text-align: center;
-            // border: 1px solid green;
+            border: none;
             color: $dark-slate-blue;
             background-color: $tan;
             line-height: 40px;
             border-radius: 10px;
+            &:hover {
+                background-color: $dark-slate-blue;
+                color: $tan;
+                border: 1px solid $tan;
+                cursor: pointer;
+            }
             a {
                 text-decoration: none;
                 // color: $dark-slate-blue;
                 font-size: 18px;
             }
-            
             a:visited {
                 text-decoration: none;
                 color: white
@@ -158,6 +171,27 @@ body {
             a:hover {
                 color: black;
             }
+        }
+        .technologies {
+            display: flex;
+            justify-content: center;
+        }
+        .tech-stack {
+            display: flex;
+            // flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            // display: inline-block;
+            height: 80px;
+            width: 80px;
+            border-radius: 50%;
+            background-color: $maroon;
+            color: white;
+            font-size: 12px;
+            font-weight: 600;
+            text-align: center;
+            // line-height: 80px;
+            margin: 10px;
         }
     }
 

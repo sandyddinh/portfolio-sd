@@ -12,7 +12,7 @@ class App extends Component {
       <div className="App">
         <div className="landing-page">
             <div className="intro-text">
-                <h1>Hey, I'm Sandy.</h1>
+                <h1 className="animated animate__bounce">Hey, I'm Sandy.</h1>
             </div>
             {/* <p></p> 
             <div>
