@@ -98,6 +98,32 @@ body {
         line-height: 1.5;
     }
 
+    #resume {
+        display: flex;
+        .resume-category {
+            margin: 20px 0px;
+        }
+        .skill-group {
+            display: flex;
+            flex-wrap: wrap;
+            padding-top: 5px;
+        }
+        .skill-tag{
+            display: inline-block;
+            box-sizing: border-box;
+            height: 40px;
+            line-height: 40px;
+            width: max-content;
+            border-radius: 20px;
+            background-color: $dark-slate-blue;
+            border: 1px solid $tan;
+            color: $tan;
+            font-size: 14px;
+            margin: 6px 10px;
+            padding: 0px 15px;
+        }
+    }
+
     #portfolio {
         text-align: left;
         .show-details {
