@@ -82,10 +82,10 @@ body {
         text-transform: uppercase;
     }
 
-    .AboutPage, .ContactPage, .PortfolioPage, .ResumePage {
+    #AboutPage, #ContactPage, #PortfolioPage, #ResumePage {
         min-height: 100vh;
         background-color: $dark-slate-blue;
-        padding-top: 60px;
+        padding-top: 100px;
         padding-bottom: 40px;
         
     }

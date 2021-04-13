@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 export default function Resume () {
     return (
-      <div className="ResumePage">
+      <div id="ResumePage">
           <div id="resume">
             <div className="resume-category">
               <h2>Engineering</h2>

@@ -5,7 +5,7 @@ import mail from '../img/mail.svg';
 
 export default function Contact () {
     return (
-      <div className="ContactPage">
+      <div id="ContactPage">
           <div id="contact">
             <div className="top"></div>
             <div className="social">

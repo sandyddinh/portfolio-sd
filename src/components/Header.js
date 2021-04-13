@@ -4,10 +4,10 @@ export default class Header extends Component {
     return (
         <header id="header" className="sticky">
           <div className="nav-links">
-            <a href="#about">About Me</a>
-            <a href="#resume">Resume</a>
-            <a href="#portfolio">Portfolio</a>
-            <a href="#contact">Contact</a>
+            <a href="#AboutPage">About Me</a>
+            <a href="#ResumePage">Resume</a>
+            <a href="#PortfolioPage">Portfolio</a>
+            <a href="#ContactPage">Contact</a>
           </div>
         </header>
     );

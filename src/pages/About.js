@@ -5,7 +5,7 @@ export default function About () {
     return (
       <>
       <Header/>
-      <div className="AboutPage">
+      <div id="AboutPage">
         <div id="about">
           {/* <div className="about-body"> */}
             <h1>I design and build websites.</h1>
