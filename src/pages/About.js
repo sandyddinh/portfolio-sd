@@ -12,7 +12,7 @@ export default function About () {
             <h2>I'm a multi-faceted human with over 6+ years of experience in management consulting and digital engineering.</h2>
             <br/>
             <p>
-              During my time in management consulting, I served a wide range of roles including Project Management and Business Analysis before finding my way to Digital Engineering projects as a QA Engineer. I helped a large Brazilian bank launch their millenial digital-only banking app. 
+              As a management consultant, I served a wide range of roles including Project Management and Business Analysis before finding my way to Digital Engineering projects as a QA Engineer. I helped a large Brazilian bank launch their millenial-targeted digital bank. 
             </p>
             <br/>
             <p>
