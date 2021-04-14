@@ -36,7 +36,8 @@ export default function Resume () {
               <div className="skill-group">
                 <div className="skill-tag">Business Process Management / Optimization</div>
                 <div className="skill-tag">Business Analysis</div>
-                <div className="skill-tag">Requiremnts Gathering</div>
+                <div className="skill-tag">Requirements Gathering</div>
+                <div className="skill-tag">Project Management</div>
                 <div className="skill-tag">Stakeholder Management</div>
               </div>
             </div>
