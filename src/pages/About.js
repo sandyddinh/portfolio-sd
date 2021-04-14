@@ -7,8 +7,7 @@ export default function About () {
       <Header/>
       <div id="AboutPage">
         <div id="about">
-          {/* <div className="about-body"> */}
-            <h1>I design and build websites.</h1>
+            <h1>I build things.</h1>
             <br/>
             <h2>I'm a multi-faceted human with over 6+ years of experience in management consulting and digital engineering.</h2>
             <br/>
@@ -26,7 +25,6 @@ export default function About () {
 
           </div>
         </div>
-        {/* </div> */}
         </>
     );
 }
